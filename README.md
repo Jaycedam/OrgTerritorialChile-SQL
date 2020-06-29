@@ -14,8 +14,9 @@ Esta sección utiliza una tabla de referencia **REGION(id, región)**
 
 >INSERT INTO REGION VALUES(3, 'Antofagasta');
 
+
  
-La siguiente parte del código distribuye las Provincias de Chile por Región, la tabla de referencia es **PROVINCIA(id, provincia, region_fk)**
+Esta sección distribuye las Provincias de Chile por Región. Tabla de referencia **PROVINCIA(id, provincia, region_fk)**
 
 *SNIPPET*
 
@@ -32,7 +33,8 @@ La siguiente parte del código distribuye las Provincias de Chile por Región, l
 >INSERT INTO PROVINCIA VALUES(4, 'Tamarugal', 2);
 
 
-Las comunas son distribuidas por provincia, la tabla de referencia es **COMUNA(id, comuna, provincia_fk)**
+
+Las comunas son distribuidas por provincia. Tabla de referencia **COMUNA(id, comuna, provincia_fk)**
 
 *SNIPPET*
 
