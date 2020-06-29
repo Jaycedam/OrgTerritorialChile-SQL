@@ -1,5 +1,4 @@
-# GeneralUtilsSQL
-1. ORG_TERRITORIAL_CH
+# Organización Territorial de Chile
 
 Script SQL utilizado en Oracle SQL Developer para crear la organbización terrotorial de Chile (Región - Provincia - Comuna)
 
@@ -20,13 +19,13 @@ La siguiente parte del código distribuye las Provincias de Chile por Región, l
 
 SNIPPET
 
--- ARICA Y PARINACOTA 
+ARICA Y PARINACOTA 
 
 INSERT INTO PROVINCIA VALUES(1, 'Arica', 1);
 
 INSERT INTO PROVINCIA VALUES(2, 'Parinacota', 1);
 
--- TARAPACÁ
+TARAPACÁ
 
 INSERT INTO PROVINCIA VALUES(3, 'Iquique', 2);
 
@@ -37,12 +36,12 @@ Las comunas son distribuidas por provincia, la tabla de referencia es COMUNA(id,
 
 SNIPPET
 
--- ARICA
+ARICA
 
 INSERT INTO COMUNA VALUES(1, 'Arica', 1);
 INSERT INTO COMUNA VALUES(2, 'Camarones', 1);
 
--- PARINACOTA
+PARINACOTA
 
 INSERT INTO COMUNA VALUES(3, 'Putre', 2);
 
