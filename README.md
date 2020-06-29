@@ -1,8 +1,10 @@
 # Organización Territorial de Chile
 
-Script SQL utilizado en Oracle SQL Developer para crear la organbización terrotorial de Chile (Región - Provincia - Comuna)
+Script SQL utilizado en Oracle SQL Developer para poblar tablas de la organización terrotorial de Chile (Región - Provincia - Comuna)
 
 Puedes crear tus propias tablas utilizando la siguiente cardinalidad **REGION 1:N PROVINCIA 1:N COMUNA**
+
+## Script
 
 Esta sección utiliza una tabla de referencia **REGION(id, región)**
 
